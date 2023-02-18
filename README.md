@@ -1,1 +1,1 @@
-C programming language in ALX SE
+loops in C
