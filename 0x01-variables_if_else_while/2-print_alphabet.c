@@ -1,9 +1,9 @@
 #include <stdio.h>
-#include <ctype.h>
+
 /**
- * main - prints lower case alphabets
- *
- * Retrun: 0, if successful
+ * main - prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
