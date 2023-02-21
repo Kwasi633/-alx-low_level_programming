@@ -2,11 +2,11 @@
 /**
  * main - prints _putchar
  *
- * Return: 0 to signify success
+ * Return: Always 0 in success
  */
 int main(void)
 {
-	_putchar(95);
+	_putchar(95); /*95 is ascii for _*/
 	_putchar('p');
 	_putchar('u');
 	_putchar('t');
