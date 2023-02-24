@@ -1,7 +1,11 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdio.h>
+/**
+ * main - header file for prototypes
+ * void prototypes (void)
+ * int prototypes
+ */
 
 int _isupper(int c);
 int _putchar(char c);
