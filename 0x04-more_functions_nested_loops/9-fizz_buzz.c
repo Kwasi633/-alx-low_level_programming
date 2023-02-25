@@ -5,7 +5,6 @@
  *        but multiples of 3 prints Fizz and
  *        any multiples of 5 print Buzz, both
  *        multiples of 3 and 5 print Fizzbuzz.
- *       
  *
  *Return: 0 if true.
  */

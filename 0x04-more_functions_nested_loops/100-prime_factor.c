@@ -9,7 +9,7 @@ int main(void)
 {
 	long pf = 612852475143, div;
 
-	while (div <pf / 2)
+	while (div < pf / 2)
 	{
 		if ((pf % 2) == 0)
 		{
