@@ -2,8 +2,9 @@
 
 /**
  * *_memset - Fills the first N types of the memry
- * 	of string S(pointer) with the constant byte of 8
+ * of string S(pointer) with the constant byte of 8
  * @s: A pinter to fill the memory area with.
+ * @b: The desired value
  * @n: The number of bytes to be filled.
  *
  * Return: String @s, pointer to memory string s

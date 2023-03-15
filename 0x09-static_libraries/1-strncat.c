@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * *_strncat - Adds two strings using inputted n of 
+ * *_strncat - Adds two strings using inputted n of
  * bytes from src.
  * @dest: pointer to destination to be appended upon.
  * @src: ponter to string to be appended to dest.

@@ -2,7 +2,7 @@
 
 /**
  * _strcat - Concatenates the str pointer to by @src
- * 	to the end of the str pointer @dest 
+ * to the end of the str pointer @dest
  * @dest: pointer to the str to be joined together
  * @src:pointer to source str to be appended to @dest.
  *
