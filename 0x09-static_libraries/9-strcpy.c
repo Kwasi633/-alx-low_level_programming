@@ -1,20 +1,24 @@
 #include "main.h"
 /**
- * _strlen - Entry point
- * @s: string
+ * _strcpy- Copies the string pointed by @src
+ * including the terminating null byte to the buffer 
+ * pointed to bt @dest.
+ * @dest: pointer 
+ * @src: The str to copy
  *
- * Return: length
+ * Return: A pointer to the destination string @dest
  */
 
-int _strlen(char *s)
+char *_strcpy(char *dest, char *src)
 {
-	int l = 0;
+	int i = 0;
 	
-	while (*s != '\0')
+	while (src[i])
 	{
-		l++;
-		s++;
+		dest[i] = src[i];
+		i++;
 	}
-	
-	return (l);
+	dest[i] = '\0';
+
+	return (dest);
 }
