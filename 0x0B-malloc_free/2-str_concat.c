@@ -33,7 +33,7 @@ char *str_concat(char *s1, char *s2)
 	if (join == NULL)
 		return (NULL);
 
-	for (i = 0; s1[i] < len; i++)
+	for (i = 0; s1[i]; i++)
 		join[copy++] = s1[i];
 
 	for (i = 0; s2[i]; i++)
