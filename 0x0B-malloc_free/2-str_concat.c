@@ -12,7 +12,7 @@
  * It returns NULL if insufficient memory was available
  */
 
-char *_str_concat(char *s1, char *s2)
+char *str_concat(char *s1, char *s2)
 {
 	char *join;
 	int copy = 0;
