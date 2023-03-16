@@ -1,1 +1,1 @@
-C programming in ALX
+arrays + pointers
