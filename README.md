@@ -1,1 +1,1 @@
-arrays + pointers
+structs in C
