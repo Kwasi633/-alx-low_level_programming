@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <stdlib>
+#include <stdlib.h>
 #include "3-calc.h"
 
 /**
@@ -11,7 +11,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int (func)(int, int);
+	int (*func)(int, int);
 	int num1, num2, a;
 
 	if (argc != 4)
@@ -26,7 +26,7 @@ int main(int argc, char *argv[])
 	if (func == NULL)
 	{
 		printf("Error\n");
-		exit(98);
+		exit(99);
 	}
 
 	a = func(num1, num2);
