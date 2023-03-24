@@ -1,7 +1,7 @@
 #ifndef _VARIADIC_FUNCTIONS_H_
 #define _VARIADIC_FUNCTIONS_H_
 
-#include <stdarf.h>
+#include <stdarg.h>
 /**
  * struct print - print type with corresponding print function
  * @type: indicated the data type
